@@ -8,6 +8,7 @@ import { FooterComponent } from './footer/footer.component';
 import { InfoRegionesComponent } from './info-regiones/info-regiones.component';
 import { MenuComponent } from './menu/menu.component';
 import { NoticiasComponent } from './noticias/noticias.component';
+import { FormularioComponent } from './formulario/formulario.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { NoticiasComponent } from './noticias/noticias.component';
     FooterComponent,
     InfoRegionesComponent,
     MenuComponent,
-    NoticiasComponent
+    NoticiasComponent,
+    FormularioComponent
   ],
   imports: [
     BrowserModule,
