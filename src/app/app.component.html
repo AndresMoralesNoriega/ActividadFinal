@@ -1,29 +1,32 @@
-
-<app-menu></app-menu>
-
-<div class="comtainer">
-  <div class="row">
-    <div class="col">
-      <app-carrusel></app-carrusel>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="assets/cropped-logoBrowser.png" alt="" width="180"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" routerLink="carrusel">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="formulario">Suscribete</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="precios">Precios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Noticias</a>
+        </li>
+      </ul>
     </div>
   </div>
-</div>
-
-<app-info-regiones></app-info-regiones>
-
-<app-noticias></app-noticias>
-
-<app-formulario></app-formulario>
+</nav>
 
 
 
-<div class="container py-5">
-  <div class="row">
-    <div class="col">
-      <app-footer></app-footer>
-    </div>
-  </div>
-</div>
+
+
 
 
 <div class="container-fluid">

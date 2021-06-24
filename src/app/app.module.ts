@@ -11,6 +11,7 @@ import { NoticiasComponent } from './noticias/noticias.component';
 import { FormularioComponent } from './formulario/formulario.component';
 import { AppRoutingModule } from './app-routing.module';
 import {RouterModule} from '@angular/router';
+import { PreciosComponent } from './precios/precios.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import {RouterModule} from '@angular/router';
     InfoRegionesComponent,
     MenuComponent,
     NoticiasComponent,
-    FormularioComponent
+    FormularioComponent,
+    PreciosComponent
   ],
   imports: [
     BrowserModule,
