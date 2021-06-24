@@ -9,6 +9,9 @@ import { InfoRegionesComponent } from './info-regiones/info-regiones.component';
 import { MenuComponent } from './menu/menu.component';
 import { NoticiasComponent } from './noticias/noticias.component';
 import { FormularioComponent } from './formulario/formulario.component';
+import { AppRoutingModule } from './app-routing.module';
+import {RouterModule} from '@angular/router';
+
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import { FormularioComponent } from './formulario/formulario.component';
   ],
   imports: [
     BrowserModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    AppRoutingModule,
+    RouterModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]

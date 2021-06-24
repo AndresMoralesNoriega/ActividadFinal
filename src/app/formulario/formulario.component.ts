@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+
 @Component({
   selector: 'app-formulario',
   templateUrl: './formulario.component.html',
@@ -7,8 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FormularioComponent implements OnInit {
 
+
   interpolationBinding = 'Suscríbete Aquí';
   propertyBinding = 'blue';
+
   constructor() { }
 
   ngOnInit(): void {
