@@ -1,5 +1,13 @@
 <br>
 
+<ul class="list-group">
+  <li class="list-group-item" *ngFor="let item of service">
+    <h5>Nombre: {{item.nombre}}</h5>
+    <h5>Especialidad: {{item.especialidad}}</h5>
+    <h5>Descripcion: {{item.descripcion}}</h5>
+  </li>
+  </ul>
+
 <div class="container justify-content-center">
   <h3 [style.color] = 'propertyBinding'>{{interpolationBinding}}</h3>
   <div class="row">

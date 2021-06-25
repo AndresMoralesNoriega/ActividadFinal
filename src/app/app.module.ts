@@ -1,6 +1,10 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+//Servicio//
+
+import {ServiceService} from './core/service.service';
+
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CarruselComponent } from './carrusel/carrusel.component';
@@ -32,7 +36,9 @@ import { PreciosComponent } from './precios/precios.component';
     RouterModule,
 
   ],
-  providers: [],
+  providers: [
+    ServiceService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

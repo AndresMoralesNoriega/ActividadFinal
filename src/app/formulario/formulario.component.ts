@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import {ServiceService} from '../core/service.service';
 
 @Component({
   selector: 'app-formulario',
@@ -12,7 +12,11 @@ export class FormularioComponent implements OnInit {
   interpolationBinding = 'Suscríbete Aquí';
   propertyBinding = 'blue';
 
-  constructor() { }
+  service:any [] = [];
+  constructor(private _servicio:ServiceService) {
+    this.service = _servicio.obtenerEquipo();
+  }
+
 
   ngOnInit(): void {
   }
